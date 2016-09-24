@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class Inicio extends AppCompatActivity {
     Button botonAcercaDe;
-
+    Button mapa;
 
 
     @Override
@@ -25,6 +25,18 @@ public class Inicio extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+        mapa = (Button)findViewById(R.id.button);
+
+        mapa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Inicio.this, Mapa.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }
