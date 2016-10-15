@@ -34,6 +34,7 @@ public class DownloaderMapa extends AsyncTask<Void,Integer,String> {
     ProgressDialog pd;
     Button boton;
     Button boton1;
+    Button boton3;
 
     public DownloaderMapa(Context c, String address, Button boton) {
         this.c = c;
