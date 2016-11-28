@@ -14,8 +14,10 @@ public class Inicio extends AppCompatActivity {
     Button botonAcercaDe;
     Button mapa;
     public static ArrayList<String> coordenadas;
-    String url="http://192.168.0.14:81/FoodMap/restaurantes.php";
+    String url="http://leizy.com.co/restaurantes.php";
 
+
+    String a = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
